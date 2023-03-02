@@ -12,18 +12,18 @@ export default function Home() {
 
   return (
     <div>
-      <div>
-      <header className='font-poppins h-screen relative mt-20'>
+      <div className='h-1/2'>
+      <header className='font-poppins h-96 relative mt-28 sm:h-screen'>
         <img src='/images/image1.jpeg' alt="woman" className="absolute inset-0 h-full bg-cover bg-center w-full z-0 hidden sm:block" />
         <img src='/images/image1.jpeg' alt="woman" className="block absolute inset-0 bg-cover h-full  sm:hidden" />
         <div className="absolute inset-0 h-full bg-black/40 z-10"></div>
         <section className='text-white max-w-[1200px] mx-auto h-full flex items-center justify-center relative z-20'>
           <div className='flex flex-col items-center justify-center space-y-5'>
-            <h4 className='mb-12 flex item-center p-5 font-extrabold text-2xl sm:text-4xl md:text-6xl lg:text-[90px] tracking-[20px] uppercase gap-0 lg:gap-5'>
+            <h4 className='mb-12 hidden item-center p-5 font-extrabold text-2xl sm:text-4xl sm:flex md:text-6xl lg:text-[90px] tracking-[20px] uppercase gap-0 lg:gap-5'>
               BEAUTY, COSMETIC & PERSONAL CARE
             </h4>
           <Link href='/services' className='mt-30 lg:mt-30 bg-blue-400 w-200 text-black p-2 rounded-full animate-bounce duration-300'>
-          <div className='flex pl-4 pr-5 text-3xl w-100 justify-between'>
+          <div className='flex pl-4 pr-5 text-3xl w-100'>
             <span className='pl-3 pr-0'>Our Services</span>
           </div>
           </Link>
