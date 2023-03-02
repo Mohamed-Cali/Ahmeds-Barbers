@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <div className='h-1/2'>
-      <header className='font-poppins h-96 relative mt-28 sm:h-screen'>
+      <header className='font-poppins h-96 relative mt-20 sm:h-screen'>
         <img src='/images/image1.jpeg' alt="woman" className="absolute inset-0 h-full bg-cover bg-center w-full z-0 hidden sm:block" />
         <img src='/images/image1.jpeg' alt="woman" className="block absolute inset-0 bg-cover h-full  sm:hidden" />
         <div className="absolute inset-0 h-full bg-black/40 z-10"></div>
