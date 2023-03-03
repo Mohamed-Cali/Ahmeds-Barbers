@@ -17,7 +17,7 @@ export default function Home( ) {
       <div className='h-1/2'>
       <header className='font-poppins h-96 relative mt-20 sm:h-screen'>
         <img src='/images/image1.jpeg' alt="woman" className="absolute inset-0 h-full bg-cover bg-center w-full z-0 hidden sm:block" />
-        <img src='/images/image1.jpeg' alt="woman" className="block absolute inset-0 bg-cover h-full  sm:hidden" />
+        <img src='/images/image1.jpeg' alt="woman" className="block absolute inset-0 bg-cover h-full w-full sm:hidden" />
         <div className="absolute inset-0 h-full bg-black/40 z-10"></div>
         <section className='text-white max-w-[1200px] mx-auto h-full flex items-center justify-center relative z-20'>
           <div className='flex flex-col items-center justify-center space-y-5'>

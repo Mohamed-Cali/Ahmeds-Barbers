@@ -15,7 +15,7 @@ const page = () => {
 
             <div className='service-card'>
                 <div className='p-6'>
-                <img src='/images/image7.jpeg' alt="hair brush" className='rounded-3xl w-full max-h-80'/>
+                <img src='/images/image7.jpeg' alt="hair" className='rounded-3xl w-full max-h-80'/>
                 </div>
                 <div className='text-center space-y-1'>
                     <h4 className='font-bold text-xl'>Haircut & styling</h4>
@@ -33,7 +33,7 @@ const page = () => {
 
             <div className='service-card'>
             <div className='p-6'>
-                <img src='/images/image8.jpeg' alt="makeup" className='rounded-3xl w-full max-h-80' />
+                <img src='/images/image8.jpeg' alt="men's haircut" className='rounded-3xl w-full max-h-80' />
             </div>
             <div className='text-center space-y-1'>
                 <h4 className='font-bold text-xl'>Men's Haircut</h4>
