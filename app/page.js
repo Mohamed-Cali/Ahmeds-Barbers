@@ -10,7 +10,7 @@ const rubik = Rubik({
   weight: '400'
 })
 
-export default function Home() {
+export default function Home( ) {
 
   return (
     <div className={rubik.className}>
@@ -35,7 +35,7 @@ export default function Home() {
       </div>
 
       <div>
-        <section className='features gap-14 mt-20 mb-24'>
+        <section className='features gap-14 mt-6 mb-24'>
           
           <div className="feature-flex">
             <h3 className="uppercase font-bold text-xl">Our success secret</h3>

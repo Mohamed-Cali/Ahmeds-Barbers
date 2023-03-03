@@ -19,7 +19,7 @@ const page = () => {
           <div className='flex flex-col align-middle justify-center gap-3'>
           <div className='contact-box flex align-top'>
           <a className='flex cursor-pointer' href={`tel:${phoneNumber}`}>
-              <div className='p-6 bg-blue-200 rounded-full mr-5'>
+              <div className='p-6 bg-gray-300 rounded-full mr-5'>
                 <AiFillPhone className='text-black text-lg' />
               </div>
               <div className='flex flex-col space-y-1'>
