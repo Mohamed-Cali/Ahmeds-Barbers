@@ -3,13 +3,13 @@ import ImgSlider from '@/components/ImgSlider';
 import Link from 'next/link';
 
 const page = () => {
-    const phoneNumber = '02087445224';
+    const phoneNumber = '07397 512044';
 
   return (
     <section className='w-full text-black py-20 mt-24 mb-4 px-6'>
           <h1 className='mb-12 text-center font-bold text-4xl'>Services</h1>
            <p className='text-center lg:w-[60ch] mx-auto pb-7'>
-           At our salon, our skilled stylists are committed to ensuring that you depart feeling rejuvenated and self-assured. Check out our list of services and schedule your appointment today.
+           Our excellent stylists at the salon are dedicated to making sure that you leave feeling revitalized and confident. Browse through our range of services and book your appointment today.
            </p>
            <div className='service-cards'>
 
@@ -24,19 +24,19 @@ const page = () => {
 
             <div className='service-card'>
             <div className='p-6'>
-                <img src='/images/image8.jpeg' alt="makeup" className='rounded-3xl w-full max-h-80' />
+                <img src='/images/image9.jpeg' alt="nails" className='rounded-3xl w-full max-h-80'/>
             </div>
             <div className='text-center space-y-1'>
-                <h4 className='font-bold text-xl'>Makeup</h4>
+                <h4 className='font-bold text-xl'>Manicure & Pedicure</h4>
             </div>
             </div>
 
             <div className='service-card'>
             <div className='p-6'>
-                <img src='/images/image9.jpeg' alt="nails" className='rounded-3xl w-full max-h-80'/>
+                <img src='/images/image8.jpeg' alt="makeup" className='rounded-3xl w-full max-h-80' />
             </div>
             <div className='text-center space-y-1'>
-                <h4 className='font-bold text-xl'>Manicure & Pedicure</h4>
+                <h4 className='font-bold text-xl'>Men's Haircut</h4>
             </div>
             </div>
            </div>

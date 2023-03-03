@@ -23,15 +23,15 @@
 
 /*Features*/
 .features{
-    @apply grid grid-cols-1 lg:grid-cols-2 text-white;
+    @apply flex flex-col justify-center text-black;
 }
 
 .feature-flex{
-    @apply bg-gray-700 flex flex-col items-center justify-center space-y-6 relative w-full py-20 px-3 lg:px-0 lg:py-0
+    @apply bg-white flex flex-col items-center justify-center space-y-6 relative w-full py-20 px-3 lg:px-0 lg:py-0
 }
 
 .feature-flex-2{
-    @apply bg-gray-700 flex flex-col items-center justify-center space-y-6 relative w-full px-3 order-4 py-20 lg:py-0 lg:order-none lg:px-0
+    @apply bg-white flex flex-col items-center justify-center space-y-6 relative w-full px-3 order-4 py-20 lg:py-0 lg:order-none lg:px-0
 }
 
 .feature-text__behind{
@@ -121,7 +121,7 @@
 
 /*Nav Bar */
 .nav{
-    @apply fixed inset-0 bg-gray-900 min-h-[80px] max-h-[10vh] shadow z-50 font-sans;
+    @apply fixed inset-0 bg-black min-h-[80px] max-h-[10vh] shadow z-50 font-sans;
 }
 .nav-container {
     @apply max-w-[1200px] mx-auto text-white pt-7  px-7 lg:px-0 flex items-center justify-between relative lg:pt-5;

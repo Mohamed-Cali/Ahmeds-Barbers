@@ -41,7 +41,7 @@ const ImgSlider = () => {
     >
       <img src='/images/image10.jpeg' alt="image" draggable="false" className='w-full h-96'/>
       <img src='/images/image11.jpeg' alt="image" draggable="false" className='w-full h-96'/>
-      <img src='/images/image5.jpeg' alt="image" draggable="false" className='w-full h-96'/>
+      <img src='/images/image12.jpeg' alt="image" draggable="false" className='w-full h-96'/>
       <img src='/images/image13.jpeg' alt="image" draggable="false" className='w-full h-96'/>
       <img src='/images/image14.jpeg' alt="image" draggable="false" className='w-full h-96'/>
       <img src='/images/image15.jpeg' alt="image" draggable="false" className='w-full h-96'/>
