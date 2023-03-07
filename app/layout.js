@@ -6,9 +6,9 @@ import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import { Catamaran, Roboto_Mono } from 'next/font/google';
 
-const inter = Catamaran({
+const catamaran = Catamaran({
   subsets: ['latin'],
-  display: 'swap'
+  variable: '--font-catamaran'
 });
 
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children}) {
 
 
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${catamaran.variable} font-catamaran`}>
       <body>
         <NavBar/>
           {children}

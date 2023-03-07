@@ -121,7 +121,7 @@
 
 /*Nav Bar */
 .nav{
-    @apply fixed inset-0 bg-black min-h-[80px] max-h-[10vh] shadow z-50 font-sans;
+    @apply fixed inset-0 bg-black min-h-[80px] max-h-[10vh] shadow z-50;
 }
 .nav-container {
     @apply max-w-[1200px] mx-auto text-white pt-7  px-7 lg:px-0 flex items-center justify-between relative lg:pt-5;

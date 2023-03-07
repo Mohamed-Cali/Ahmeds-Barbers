@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['var(--font-inter)'],
+        catamaran: [`var(--font-catamaran)`, 'san-serif'],
       }
     },
   },
