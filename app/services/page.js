@@ -7,7 +7,7 @@ const page = () => {
 
   return (
     <section className='w-full text-black py-20 mt-24 mb-4 px-6'>
-          <h1 className='mb-12 text-center font-bold text-4xl'>Services</h1>
+          <h1 className='mb-12 text-center font-bold text-4xl uppercase'>Services</h1>
            <p className='text-center lg:w-[60ch] mx-auto pb-7'>
            Our excellent stylists at the salon are dedicated to making sure that you leave feeling revitalized and confident. Browse through our range of services and book your appointment today.
            </p>

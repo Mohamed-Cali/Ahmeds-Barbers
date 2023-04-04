@@ -13,7 +13,7 @@ const page = () => {
 
   return (
     <section className='min-h-screen w-full py-20'>
-      <h1 className='mb-12 mt-24 text-center font-bold text-4xl'>Contact Us</h1>
+      <h1 className='mb-12 mt-24 text-center font-bold text-4xl uppercase'>Contact Us</h1>
       <div className='max-w-7xl mx-auto px-10'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
           <div className='flex flex-col align-middle justify-center gap-3'>
