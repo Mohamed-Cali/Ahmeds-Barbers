@@ -9,11 +9,12 @@ import {AiFillMail,
 
 const Footer = () => {
   return (
-    <footer className='bg-black text-white pt-10'>
+
+    <footer className='bg-black text-white pt-10 p-8'>
       <div className='max-w-[1200px] gap-10 mx-auto grid grid-cols-1 place-items-center lg:place-items-start lg:grid-cols-3 pb-4'>
         <section className='space-y-4'>
           <h4 className='font-bold text-lg text-center lg:text-start'>I UNISEX</h4>
-          <p className='text-xs lg:text-sm text-center lg:text-start'>Elevate your appearance through our<br/> exceptional styling services.</p>
+          <p className='text-xs lg:text-sm text-center lg:text-start'>Elevate your appearance through our<br/> exceptional styling services</p>
           <div className='flex items-center gap-4 justify-center lg:justify-start'>
             <a href='https://www.facebook.com/people/Salon-frizeriecoafor-I-unisex/100063618157989/'>
              <AiFillFacebook />
