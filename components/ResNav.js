@@ -9,7 +9,7 @@ function ResNav({ closeNav }) {
     <div className='overlay duration-300 pt-0 mt-0' onClick={closeNav}>
         <div className='nav-responsive-container'>
         <button className='cursor-pointer mt-5 w-full ml-3' onClick={closeNav}>
-           <AiOutlineClose className='text-red-600 text-2xl text-right' />
+           <AiOutlineClose className='text-white text-2xl text-right' />
         </button>
         <ul className='nav-responsive-ul'>
         <li>

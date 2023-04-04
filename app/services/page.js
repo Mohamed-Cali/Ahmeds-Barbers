@@ -40,7 +40,7 @@ const page = () => {
             </div>
             </div>
            </div>
-            <button className='cart-btn bg-blue-600 mx-auto mt-20 mb-10 extra'>
+            <button className='cart-btn mx-auto mt-20 mb-10 extra'>
                 <Link target="_blank" href={`tel:${phoneNumber}`}>Book an appointment</Link>
             </button>
            <div className='mt-24 overflow-y-hidden'>

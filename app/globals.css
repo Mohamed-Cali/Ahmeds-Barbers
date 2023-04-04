@@ -53,7 +53,7 @@
 }
 /*buttons*/
 .cart-btn {
-    @apply bg-blue-500 border-2 border-blue-400 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
+    @apply bg-blue-400 border-2 border-blue-400 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
 }
 
 .cart-btn:hover{
@@ -65,7 +65,7 @@
 }
 
 .red-btn{
-    @apply bg-red-500 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
+    @apply bg-white flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
 }
 
 .success-btn{
