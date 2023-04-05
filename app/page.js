@@ -14,29 +14,27 @@ export default function Home( ) {
 
   return (
     <div className={rubik.className}>
-      <div className='h-1/2 mt-8'>
-      <header className='font-poppins h-96 relative mt-20 sm:mt-20 sm:h-screen'>
-        <img src='/images/image1.jpeg' alt="woman" className="absolute inset-0 h-full bg-cover bg-center w-full z-0 hidden sm:block" />
-        <img src='/images/image1.jpeg' alt="woman" className="block absolute inset-0 bg-cover h-full w-full sm:hidden" />
-        <div className="absolute inset-0 h-full bg-black/40 z-10"></div>
-        <section className='text-white max-w-[1200px] mx-auto h-full flex items-center justify-center relative z-20'>
-          <div className='flex flex-row h-full sm:flex-col items-center justify-center space-y-5'>
-            <h4 className='text-yellow-200 mb-12 hidden item-center p-5 font-extrabold text-2xl sm:text-4xl sm:flex md:text-6xl lg:text-[90px] tracking-[20px] uppercase gap-0 lg:gap-5'>
-            Unisex hairdresser and Beauty salon
-            </h4>
-            <a href='/services' className='mt-30 self-end sm:self-center lg:mt-30 bg-none w-200 bg-red-300 text-black border-solid p-2 rounded-full animate-bounce duration-300'>
-          <div className='flex pl-4 pr-5 text-3xl w-100'>
-            <span className='pl-3 pr-0'>Our Services</span>
+      <section class="section" id="home">
+        <div class="container1 grid">
+          <div class="image">
+            <img
+              src="/images/image1.jpeg"
+              alt=""
+            />
           </div>
-          </a>
+          <div class="text">
+            <h2 class="title">Unisex hairdresser and Beauty salon</h2>
+            <p>
+              Whatever your hair type or style, we have the skills, products and modern facilities to fulfil your desires.
+            </p>
+            <a class="button" href="#">Our Services</a>
           </div>
-        </section>
-      </header>
-      </div>
+        </div>
+      </section>
 
       <div>
 
-      <section className="section mt-20 mb-24">
+      <section className="mb-24 mt-20 lg:mt-0">
         <div className="container p-2">
             <h2 className="heading heading--header flex justify-start">LEARN MORE ABOUT US</h2>
             <div className="grids mb-5">
@@ -77,7 +75,7 @@ export default function Home( ) {
             </div>
 
             <div className="mt-24 mb-24 flex justify-center">
-                <a href='/services' className="button bg-red-400">Our Services</a>
+                <a href='/services' className="button2 bg-gray-500 ">Our Services</a>
             </div>
         </div>
     </section>
