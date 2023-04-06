@@ -31,7 +31,7 @@ export default function Home( ) {
 
       <div>
 
-      <section className="mb-48 mt-20 lg:mt-0">
+      <section className="mb-32 mt-20 lg:mt-0">
         <div className="container p-2">
             <h2 className="heading heading--header flex justify-center">LEARN MORE ABOUT US</h2>
             <div className="grids mb-5">
