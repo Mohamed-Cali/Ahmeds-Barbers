@@ -31,7 +31,7 @@ export default function Home( ) {
 
       <div>
 
-      <section className="mb-24 mt-20 lg:mt-0">
+      <section className="mb-48 mt-20 lg:mt-0">
         <div className="container p-2">
             <h2 className="heading heading--header flex justify-center">LEARN MORE ABOUT US</h2>
             <div className="grids mb-5">
@@ -76,28 +76,6 @@ export default function Home( ) {
             </div>
         </div>
     </section>
-
-        {/* <section className='features gap-14 mt-6 mb-24'>
-          
-          <div className="feature-flex">
-            <h3 className="uppercase font-bold text-xl">Our success secret</h3>
-            <p className="text-center max-w-[600px] mx-auto">
-            We hold the belief that each individual deserves to possess luscious and healthy hair, which is why we've created a variety of hair care services that cater to the distinct requirements and preferences of every client. Our proficient team of stylists are committed to providing top-notch care and attention, ensuring that you receive the finest quality service.
-            </p>
-          </div>
-          <div className="w-full self-center md:max-w-4xl">
-            <img src='/images/image2.jpeg' alt="woman" className='w-full md:max-w-4xl'/>
-          </div>
-          <div className="feature-flex-2">
-            <h3 className="uppercase font-bold text-xl">How we do it</h3>
-            <p className="text-center max-w-[600px] mx-auto">
-            At our salon, our primary focus is on delivering exceptional hair care services to our clients. We utilize premium products and cutting-edge techniques to ensure that your hair not only looks but also feels its absolute best. Our stylists are trained to actively listen to your needs and preferences, collaborating with you to achieve the exact look you desire. You can rely on us to provide you with a flawless hair transformation.
-            </p>
-          </div>
-          <div className="w-full self-center md:max-w-4xl">
-            <img src='/images/image3.jpeg' alt="hair" className="w-full md:max-w-4xl" />
-          </div>
-      </section>   */}
      </div>    
     </div>
 
