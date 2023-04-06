@@ -23,11 +23,11 @@ export default function Home( ) {
             />
           </div>
           <div class="text">
-            <h2 class="title">Unisex hairdresser and Beauty salon</h2>
+            <h2 class="title">Your Go-To Specialist for Modern Haircuts and Beard Grooming</h2>
             <p>
-              Whatever your hair type or style, we have the skills, products and modern facilities to fulfil your desires.
+            No matter your hair type or preferred style, we have the expertise, grooming products, and contemporary facilities to meet your grooming needs and bring your vision to life.
             </p>
-            <a class="button" href="#">Our Services</a>
+            <a class="button" href="/services">Our Services</a>
           </div>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function Home( ) {
 
       <section className="mb-24 mt-20 lg:mt-0">
         <div className="container p-2">
-            <h2 className="heading heading--header flex justify-start">LEARN MORE ABOUT US</h2>
+            <h2 className="heading heading--header flex justify-center">LEARN MORE ABOUT US</h2>
             <div className="grids mb-5">
                 <div className="bg bg--center"></div>
 
@@ -52,7 +52,7 @@ export default function Home( ) {
                         <h2 className="card-h__title">Our success secret</h2>
 
                         <p className="card-h__text">
-                        We hold the belief that each individual deserves to possess luscious and healthy hair, which is why we've created a variety of hair care services that cater to the distinct requirements and preferences of every client. Our proficient team of stylists are committed to providing top-notch care and attention, ensuring that you receive the finest quality service.
+                        At our barber shop, we believe that every person deserves to look and feel their best. That's why we've developed a range of grooming services that cater to the unique needs and preferences of each customer. Our skilled team of barbers is dedicated to delivering exceptional care and attention to detail, so you can be sure you'll receive the highest quality service. Whether you're looking for a classic cut or a modern style, we've got you covered. Come visit us and experience the secret to our success: our commitment to your satisfaction.
                         </p>
                     </div>
                 </article>
@@ -64,10 +64,10 @@ export default function Home( ) {
                         </div>
                     </div>
                     <div className="card-h__body">
-                        <h2 className="card-h__title">How we do it</h2>
+                        <h2 className="card-h__title">How We Keep Our Clients Looking Sharp</h2>
 
                         <p className="card-h__text">
-                        At our salon, our primary focus is on delivering exceptional hair care services to our clients. We utilize premium products and cutting-edge techniques to ensure that your hair not only looks but also feels its absolute best. Our stylists are trained to actively listen to your needs and preferences, collaborating with you to achieve the exact look you desire. You can rely on us to provide you with a flawless hair transformation.
+                        At our barber shop, our top priority is to provide outstanding grooming services to our valued clients. We use top-of-the-line grooming products and the latest techniques to ensure that your hair not only looks fantastic but also feels healthy and nourished. Our barbers are well-trained to listen attentively to your requirements and work together with you to achieve your desired hairstyle. You can depend on us to give you a polished look that complements your personal style. Come in and discover how we do it - the secret to delivering exceptional hair transformations that leave our clients looking and feeling their best.
                         </p>
 
                     </div>
@@ -75,7 +75,7 @@ export default function Home( ) {
             </div>
 
             <div className="mt-24 mb-24 flex justify-center">
-                <a href='/services' className="button2 bg-gray-500 ">Our Services</a>
+                <a href='/services' className="button">Our Services</a>
             </div>
         </div>
     </section>
