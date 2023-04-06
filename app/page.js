@@ -1,8 +1,5 @@
-import Image from 'next/image'
+
 import { Rubik } from 'next/font/google'
-import {GoPrimitiveDot} from "react-icons/go";
-import {AiOutlineArrowDown, AiFillPhone} from "react-icons/ai"
-import Link from 'next/link';
 import './page.css'
 
 const rubik = Rubik({ 
