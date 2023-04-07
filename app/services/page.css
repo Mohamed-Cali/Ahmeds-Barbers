@@ -1,2 +1,6 @@
 
-
+@media (min-height: 1400px) {
+    .section {
+        min-height: 90vh;
+    }
+}

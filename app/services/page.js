@@ -1,16 +1,17 @@
 
 import Link from 'next/link';
+import "./page.css"
 
 const page = () => {
     const phoneNumber = '020 8538 9386';
 
   return (
-    <section className='w-full text-black py-20 mt-24 mb-4 px-6'>
+    <section className='section flex flex-col justify-center w-screen text-black py-20 mt-24 mb-4 px-6'>
           <h1 className='mb-12 text-center font-bold text-4xl uppercase'>Services</h1>
            <p className='text-center text-lg lg:w-[60ch] mx-auto pb-7'>
            Let our team of skilled barbers assist you in discovering a style that complements your unique features and personality. Whether you prefer a classic or modern look, our experienced barbers will work with you to achieve the perfect cut, leaving you feeling confident and refreshed.
            </p>
-           <div className='service-cards'>
+           <div className='service-cards self-center'>
 
             <div className='service-card'>
                 <div className='p-6'>
