@@ -1,7 +1,6 @@
 
 import { Rubik } from 'next/font/google'
 import './page.css'
-import './globals.css'
 
 const rubik = Rubik({ 
   subsets: ['latin'],
@@ -25,7 +24,7 @@ export default function Home( ) {
             <p>
             No matter your hair type or preferred style, we have the expertise, grooming products, and contemporary facilities to meet your grooming needs and bring your vision to life.
             </p>
-            <a class="button" href="/services">Our Services</a>
+            <a class="button1" href="/services">Our Services</a>
           </div>
         </div>
       </section>
@@ -73,7 +72,7 @@ export default function Home( ) {
             </div>
 
             <div className="mt-24 mb-24 flex justify-center">
-                <a href='/services' className="button">Our Services</a>
+                <a href='/services' className="button1">Our Services</a>
             </div>
         </div>
     </section>
