@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import "./page.css"
+import "../globals.css"
 
 const page = () => {
     const phoneNumber = '07565 400486';

@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
 
-    <footer className='bg-black text-white pt-10 p-8'>
+    <footer className='bg-gray-800 text-white pt-10 p-8'>
       <div className='max-w-[1200px] gap-10 mx-auto grid grid-cols-1 place-items-center lg:place-items-start lg:grid-cols-3 pb-4'>
         <section className='space-y-4'>
           <h4 className='font-bold text-lg text-center lg:text-start uppercase'>Ahmed's Barbers</h4>

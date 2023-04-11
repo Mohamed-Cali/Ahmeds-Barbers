@@ -7,8 +7,9 @@
 
 
 @layer base {
-    html {
-      font-family: system-ui, sans-serif;
+
+    body {
+        background-color: rgb(233, 228, 228);
     }
 }
 
@@ -53,7 +54,7 @@
 }
 /*buttons*/
 .cart-btn {
-    @apply bg-black border-2 border-black text-white text-lg font-bold flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
+    @apply bg-gray-500 border-2 border-gray-500 text-white text-lg font-bold flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
 }
 
 .cart-btn:hover{
@@ -121,7 +122,7 @@
 
 /*Nav Bar */
 .nav{
-    @apply fixed inset-0 bg-black min-h-[80px] max-h-[10vh] shadow z-50;
+    @apply fixed inset-0 bg-gray-800 min-h-[80px] max-h-[10vh] shadow z-50;
 }
 .nav-container {
     @apply max-w-[1200px] mx-auto text-white pt-7  px-7 lg:px-0 flex items-center justify-between relative lg:pt-5;
