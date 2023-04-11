@@ -151,7 +151,7 @@
 
 /*Responsive nav*/
 .nav-responsive-container {
-    @apply absolute z-20 right-0 top-0 h-screen w-2/5   bg-white text-black dark:text-white dark:bg-black;
+    @apply absolute z-20 right-0 top-0 h-screen w-2/5   bg-white text-black dark:text-white dark:bg-gray-800;
 }
 
 .overlay{
