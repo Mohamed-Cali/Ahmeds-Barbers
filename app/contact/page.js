@@ -7,7 +7,7 @@ import '../globals.css'
 
 const page = () => {
 
-  const phoneNumber = '020 8538 9386';
+  const phoneNumber = '07565 400486';
 
   return (
     <section className='min-h-screen w-full py-20'>
@@ -32,14 +32,14 @@ const page = () => {
               <CiLocationOn className='text-black text-2xl' />
               </div>
               <div className='flex justify-center space-y-1'>
-                <span className='font-bold self-center'>162 Heath Rd <br/> Twickenham <br/>  TW1 4BN</span>
+                <span className='font-bold self-center'>250 Twickenham Rd <br/> Isleworth <br/>  TW7 7DT</span>
               </div>
           </div>
           </div>
           <div className='w-full p-2'>
           <iframe 
             className='w-full rounded-md'
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19890.312258529208!2d-0.3583703675073569!3d51.452849546063156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760c8e884ef4a3%3A0x7fc1c7d7151dc786!2sTwicks%20Barbers!5e0!3m2!1sen!2suk!4v1680743240556!5m2!1sen!2suk" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4971.639436662299!2d-0.3404442218127995!3d51.46146636851034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760d3874efa1b7%3A0xa01bff0add87ad42!2sAhmed%E2%80%99s%20Barbers!5e0!3m2!1sen!2suk!4v1681205815851!5m2!1sen!2suk" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         </div>
         
@@ -49,4 +49,3 @@ const page = () => {
 }
 
 export default page;
-

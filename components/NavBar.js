@@ -23,7 +23,7 @@ const NavBar = () => {
       <nav className='nav pl-4 pr-4'>
         <div className='nav-container'>
         <Link href={"/"}>
-        <span className='text-2xl tracking-widest border-2 border-white px-3'>TWICKS BARBERS</span>
+        <span className='text-2xl tracking-widest border-2 border-white px-3'>AHMED'S BARBERS</span>
         </Link>
         <LargeNav />
         {open && <ResNav closeNav={handleNav} />}
