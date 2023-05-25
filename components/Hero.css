@@ -61,13 +61,6 @@ a{
     border-radius: 0.25rem;
   }
   
-  #home .text {
-   margin-left: 1.5rem;
-   margin-right: 1.5rem;
-   text-align: center;
-   padding-top: 1.5rem;
-  }
-  
   #home .text h1 {
     margin-bottom: 1rem;
   }
@@ -84,6 +77,7 @@ a{
     padding: 0 1.5rem;
     max-width: 700px;
     margin: 0 auto;
+    text-align: center;
 }
   
   
@@ -106,6 +100,7 @@ a{
        max-height: 750px;
        max-width: 1280px;
        margin: 0 auto;
+       padding: 0 2.5rem;
        
    }
 
@@ -120,6 +115,7 @@ a{
        order: 0;
        max-width: 24rem;
        text-align: left;
+       padding: 0 3rem;
    }
 
    .title {
