@@ -4,8 +4,8 @@ import PricePage from './Price'
 function Services() {
   return (
     <div>
-        <section id="services">
-          <div className="container mt-20">
+        <section id="services" className='pt-0'>
+          <div className="container pt-28">
             <div className="section-header">
               <h2 className="fs-1 uppercase mb-12">Our Services</h2>
               <p>
