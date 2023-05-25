@@ -1,7 +1,5 @@
 import '../app/globals.css'
 import {AiOutlineClose} from "react-icons/ai"
-import Link from 'next/link'
-// import { useState } from 'react'
 
 function ResNav({ closeNav }) {
 
@@ -11,27 +9,25 @@ function ResNav({ closeNav }) {
         <button className='cursor-pointer mt-5 w-full ml-3' onClick={closeNav}>
            <AiOutlineClose className='text-white text-2xl text-right' />
         </button>
-        <ul className='nav-responsive-ul'>
+        <ul className='nav-responsive-ul uppercase'>
         <li>
-            <Link href={"/"}>
-                HOME
-            </Link>
-        </li>
-        <li>
-            <Link href={"/about"}>
-                ABOUT
-            </Link>
-        </li>
-        <li>
-            <Link href={"/services"}>
-                SERVICES
-            </Link>
-        </li>
-        <li>
-            <Link href={"/contact"}>
-                 CONTACT
-            </Link>
-        </li>
+              <a href="#">Home</a>
+            </li>
+              <li>
+              <a href="#about">About</a>
+              </li>
+              <li>
+              <a href="#services">Services</a>
+              </li>
+              <li>
+              <a href="#pricing">Pricing</a>
+              </li>
+              <li>
+              <a href="#testimonial">Testimonials</a>
+              </li>
+              <li>
+              <a href="#contact">Contact</a>
+              </li>
     </ul>
     </div>
     </div>

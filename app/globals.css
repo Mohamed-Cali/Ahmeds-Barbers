@@ -7,10 +7,6 @@
 
 
 @layer base {
-
-    body {
-        background-color: rgb(233, 228, 228);
-    }
 }
 
 
@@ -24,11 +20,11 @@
 
 /*Features*/
 .features{
-    @apply flex flex-col justify-center text-black;
+    @apply grid grid-cols-1 lg:grid-cols-2 text-black;
 }
 
 .feature-flex{
-    @apply bg-white flex flex-col items-center justify-center space-y-6 relative w-full py-20 px-3 lg:px-0 lg:py-0
+    @apply bg-emerald-200 flex flex-col items-center justify-center space-y-6 relative w-full py-20 px-3 lg:px-0 lg:py-0
 }
 
 .feature-flex-2{
@@ -36,7 +32,7 @@
 }
 
 .feature-text__behind{
-    @apply text-[150px] top-14 font-sans absolute  text-yellow-200 opacity-30
+    @apply text-[150px] top-14 font-sans absolute text-yellow-200 opacity-30
 }
 
 /* STAFF*/
@@ -54,7 +50,7 @@
 }
 /*buttons*/
 .cart-btn {
-    @apply bg-gray-500 border-2 border-gray-500 text-white text-lg font-bold flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
+    @apply bg-green-400 border-2 border-green-400 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
 }
 
 .cart-btn:hover{
@@ -66,11 +62,11 @@
 }
 
 .red-btn{
-    @apply bg-white flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
+    @apply bg-red-500 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
 }
 
 .success-btn{
-    @apply text-white border-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max;
+    @apply bg-green-500 text-white border-2 border-green-400 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max;
 }
 
 .red-btn:hover,
@@ -122,15 +118,12 @@
 
 /*Nav Bar */
 .nav{
-    @apply fixed inset-0 bg-gray-800 min-h-[80px] max-h-[10vh] shadow z-50;
+    @apply inset-0 bg-neutral-900 min-h-[80px] max-h-[10vh] z-50;
 }
 .nav-container {
     @apply max-w-[1200px] mx-auto text-white pt-7  px-7 lg:px-0 flex items-center justify-between relative lg:pt-5;
 }
 
-.cart{
-    @apply text-lg bg-yellow-400 px-2 rounded-full text-black;
-}
 
 
 
@@ -140,7 +133,7 @@
 }
 
 .nav-ul > *{
-    @apply duration-300;
+    @apply duration-300 text-xl;
 }
 
 .nav-ul > *:hover,
@@ -151,7 +144,7 @@
 
 /*Responsive nav*/
 .nav-responsive-container {
-    @apply absolute z-20 right-0 top-0 h-screen w-2/5   bg-white text-black dark:text-white dark:bg-gray-800;
+    @apply absolute z-20 right-0 top-0 h-screen w-2/5 text-black dark:text-white bg-neutral-900;
 }
 
 .overlay{
@@ -166,5 +159,3 @@
 .nav-responsive-ul > *:focus{
     @apply text-yellow-400
 }
-
-  

@@ -19,12 +19,11 @@ const NavBar = () => {
 
   return (
     <>
-
-      <nav className='nav pl-4 pr-4'>
+      <nav className='nav pl-4 pr-4 sticky border-none'>
         <div className='nav-container'>
-        <Link href={"/"}>
-        <span className='text-2xl tracking-widest border-2 border-white px-3'>AHMED'S BARBERS</span>
-        </Link>
+        <a href={"#"}>
+        <span className='text-2xl tracking-widest border-2 border-white px-3'>BERNI'S CUTZ</span>
+        </a>
         <LargeNav />
         {open && <ResNav closeNav={handleNav} />}
         <div className="flex items-center gap-6 lg:hidden">
@@ -35,7 +34,7 @@ const NavBar = () => {
         </div>
         </div>
         </div>
-      </nav>      
+      </nav>
     </>
   )
 }

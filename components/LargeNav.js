@@ -1,22 +1,28 @@
-import Link from 'next/link';
+
 
 const LargeNav = () => {
-    return (
-      <ul className='nav-ul'>
+  return (
+    <ul className='nav-ul uppercase pr-8 xl:pr-0'>
+          <li>
+            <a href="#">Home</a>
+          </li>
             <li>
-              <Link href={"/"}>HOME</Link>
+            <a href="#about">About</a>
             </li>
-              <li>
-              <Link href={"/about"}>ABOUT</Link>
-              </li>
-              <li>
-              <Link href={"/services"}>SERVICES</Link>
-              </li>
-              <li>
-              <Link href={"/contact"}>CONTACT</Link>
-              </li>
-          </ul>
-    )
-  }
-  
-  export default LargeNav;
+            <li>
+            <a href="#services">Services</a>
+            </li>
+            <li>
+            <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+            <a href="#testimonial">Testimonials</a>
+            </li>
+            <li>
+            <a href="#contact">Contact</a>
+            </li>
+        </ul>
+  )
+}
+
+export default LargeNav;

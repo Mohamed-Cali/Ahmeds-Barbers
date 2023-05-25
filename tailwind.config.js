@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         catamaran: [`var(--font-catamaran)`, 'san-serif'],
+        rubik: [`var(--font-rubik)`, 'san-serif'],
       }
     },
   },

@@ -1,37 +1,70 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {
+  AiFillFacebook,
+  AiFillInstagram
+} from "react-icons/ai"
+import '../app/page.css'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPhone, faLocation, faClock} from '@fortawesome/free-solid-svg-icons';
+
+
+library.add(faPhone, faLocation, faClock, );
 
 
 const Footer = () => {
-  return (
+  const phoneNumber = '02087445224';
 
-    <footer className='bg-gray-800 text-white pt-10 p-8'>
-      <div className='max-w-[1200px] gap-10 mx-auto grid grid-cols-1 place-items-center lg:place-items-start lg:grid-cols-3 pb-4'>
-        <section className='space-y-4'>
-          <h4 className='font-bold text-lg text-center lg:text-start uppercase'>Ahmed's Barbers</h4>
-          <p className='text-xs lg:text-sm text-center lg:text-start'>Elevate your appearance through our<br/> exceptional styling services</p>
-          
-        </section>
-        <section className='space-y-4'>
-          <h4 className='font-bold text-lg text-center lg:text-start'>Contact</h4>
-          <address className='text-sm font-light'>250 Twickenham Rd, Isleworth TW7 7DT</address>
-          <p className='flex flex-col text-center lg:text-start'>
-            <span className='text-light text-xs lg:text-sm'>07565 400486</span>
-          </p>
-        </section>
-        <section className='space-y-4'>
-          <h4 className='font-bold text-lg text-center lg:text-start'>Opening Hours</h4>
-          <p className='grid grid-cols-2 m-0'>
-            <span className='text-xs lg:text-sm'>Monday - Saturday</span>
-            <span className='text-xs lg:text-sm text-end'>9am - 6pm</span>
-          </p>
-          <p className='grid grid-cols-2 m-0'>
-            <span className='text-xs lg:text-sm'>Sunday</span>
-            <span className='text-xs lg:text-sm text-end'>10am - 4pm</span>
-          </p>
-        </section>
-      </div>
-      <div className='border-t pt-2 pb-2'>
-      <p className='text-center text-gray-300 text-xs md:text-sm lg:text-base'>&copy; AhmedsBarbers {new Date().getFullYear()}</p>
-      </div>
+  return (
+    <footer >
+      <section id="footer">
+        {/* <img src="images/footer-img.png" class="footer-img"/> */}
+        <div class="title-text mb-20">
+            <h1 className='text-3xl text-center font-semibold uppercase'>Visit Us Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <div className='right flex flex-row justify-start'>
+                <FontAwesomeIcon icon="clock" className="icon3"/>
+                <p><i class="fa fa-clock-o"></i>Tuesday to Saturday - 9am to 6pm</p>
+                </div>
+
+                <div className='right flex flex-row justify-start'>
+                <FontAwesomeIcon icon="clock" className="icon3"/>
+                <p><i class="fa fa-clock-o"></i>Sunday and Monday - Closed</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <div className='right flex flex-row justify-end'>
+                  <p>22 The Grn, Twickenham TW2 5AB</p>
+                  <FontAwesomeIcon icon="location" className="icon2"/>
+                </div>
+                
+                <a className='cursor-pointer' href={`tel:${phoneNumber}`}>
+                  <div className='right flex flex-row justify-end' >
+                    <p>{phoneNumber}</p>
+                    <FontAwesomeIcon icon="phone" className="icon2"/>
+                  </div>
+                </a>
+
+                <a className='cursor-pointer' href='https://www.instagram.com/berniscutz/?hl=en'>
+                  <div className='right flex flex-row justify-end' >
+                    <p>@berniscutz</p>
+                    <AiFillInstagram className="icon2"/>
+                  </div>
+                </a>
+
+                <a className='cursor-pointer' href='https://www.facebook.com/p/Bernis-Cutz-100063505243672/'>
+                  <div className='right flex flex-row justify-end' >
+                    <p>Berni’s Cutz</p>
+                    <AiFillFacebook className="icon2"/>
+                  </div>
+                </a>
+            </div>
+        </div>
+     </section>
     </footer>
   )
 }

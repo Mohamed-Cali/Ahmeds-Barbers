@@ -1,0 +1,43 @@
+
+
+.owl-nav button {
+    padding-top: 1.5rem;
+ }
+ 
+ .owl-prev,
+ .owl-next {
+    width: 100%;
+ }
+ 
+ #img {
+    width: 200px;
+    min-height: 384px;
+ }
+ 
+ 
+ .item-con {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .owl-nav span {
+    width: 100%;
+    color: rgb(30, 28, 28);
+    font-size: 48px;
+    font-weight: 200;
+ }
+ 
+ .owl-nav span:hover {
+   background-color: #817f7f;
+   color: white;
+ }
+ 
+ .owl-item {
+    min-height: 384px;
+    
+ }
+ 
+ #featuredProducts {
+    min-height: 384px;
+    height: 100%;
+ }
