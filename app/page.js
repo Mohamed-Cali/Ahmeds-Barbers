@@ -1,4 +1,4 @@
-import './page.css'
+
 import Reviews from '@/components/Reviews';
 import { Catamaran} from 'next/font/google';
 import Hero from '@/components/Hero';

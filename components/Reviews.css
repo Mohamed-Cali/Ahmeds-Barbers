@@ -35,7 +35,7 @@
   }
   
   /* review */
-  #testimonial {
+  #reviews {
   /* background-color: rgb(251, 251, 251); */
   
   background-image: url(/images/image16.jpeg), radial-gradient(rgb(110, 102, 102), rgb(105, 108, 115));
@@ -49,7 +49,7 @@
   min-height: 600px;
   }
   
-  #testimonial h2 {
+  #reviews h2 {
   color: #fff;
   }
   

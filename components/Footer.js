@@ -18,7 +18,6 @@ const Footer = () => {
   return (
     <footer >
       <section id="footer">
-        {/* <img src="images/footer-img.png" class="footer-img"/> */}
         <div class="title-text mb-20">
             <h1 className='text-3xl text-center font-semibold uppercase'>Visit Us Today</h1>
         </div>

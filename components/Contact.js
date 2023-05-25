@@ -14,7 +14,7 @@ library.add(faPhone, faLocation, faClock, );
 
 function Contact() {
 
-    const phoneNumber = '020 8744 5224';
+    const phoneNumber = '07565400486';
 
   return (
     <div>

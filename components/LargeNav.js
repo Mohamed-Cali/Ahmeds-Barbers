@@ -16,7 +16,7 @@ const LargeNav = () => {
             <a href="#pricing">Pricing</a>
             </li>
             <li>
-            <a href="#testimonial">Reviews</a>
+            <a href="#reviews">Reviews</a>
             </li>
             <li>
             <a href="#contact">Contact</a>

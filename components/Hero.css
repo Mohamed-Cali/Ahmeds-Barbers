@@ -4,10 +4,6 @@ a{
     text-decoration: none;
   }
   
-  img {
-   width: 100%;
-   height: auto;
-  }
   
   html {
     scroll-behavior: smooth;
@@ -19,6 +15,7 @@ a{
    font-weight: 700;
    color: black;
    margin-bottom: 1rem;
+   margin-top: 1rem;
   }
   
   .button1 {
@@ -42,28 +39,25 @@ a{
   
   
   
-  /*  ------------ LAYOUT ------------- */
-  .container {
-    max-width: 1370px;
-    margin: 0 auto;
-  }
-  
-  
-  
   /*  ------------ HOME ------------- */
   .section3 { 
    overflow: hidden;
    background-color: rgb(176, 170, 170);
    padding-bottom: 3rem;
   }
-  
-  #home .image img {
-   position: relative;
-   padding: 0 3%;
+  #home .image1 {
+    margin: 0 auto;
   }
   
-  #home .image img,
-  #home .image::before {
+  #home .image1 img {
+   position: relative;
+   padding: 0 3%;
+   max-width: 650px;
+   margin: auto;
+  }
+  
+  #home .image1 img,
+  #home .image1::before {
     border-radius: 0.25rem;
   }
   
@@ -81,12 +75,21 @@ a{
   #home .text p {
     margin-bottom: 2rem;
   }
-  
+
+  .image1 {
+    width: 100%;
+  }
+
+  #home .text {
+    padding: 0 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
   
   
   /*  ------------ MEDIA QUERIES ------------- */
   /* extra large devices: 1200 >*/
-  @media (min-width: 1000px) {
+  @media (min-width: 1024px) {
    .button1 {
        height: 3.125rem;
    }
@@ -97,16 +100,18 @@ a{
   
    
    /* home */
-   #home .container {
+   #home .container5 {
        grid-auto-flow: column;
        justify-content: space-between;
        max-height: 750px;
+       max-width: 1280px;
+       margin: 0 auto;
        
    }
 
    
   
-   #home .image {
+   #home .image1 {
        order: 1;
        margin-left: 1.5rem;
    }
@@ -116,7 +121,18 @@ a{
        max-width: 24rem;
        text-align: left;
    }
+
+   .title {
+    margin-top: 0;
+    padding: 0;
+   }
   }
-  
+
+  @media (max-width: 640px) {
+    .text {
+      padding: 0 0.2rem;
+    }
+  }
+
   
    

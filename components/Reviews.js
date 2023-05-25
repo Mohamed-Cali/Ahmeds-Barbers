@@ -84,10 +84,10 @@ import './Reviews.css';
     };
   
     return (
-      <section id="testimonial" className="pt-16">
+      <section id="reviews" className="pt-16">
         <div className="container">
           <div className="section-header mt-16">
-            <h2 className="fs-1 uppercase">Testimonials</h2>
+            <h2 className="fs-1 uppercase">Reviews</h2>
           </div>
           <Slider className="" {...settings}>
             {reviews.map((review, index) => (

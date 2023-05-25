@@ -4,9 +4,10 @@ function Hero() {
   return (
     <div>
         <section class="section3" id="home">
-            <div class="container grid">
-            <div class="image">
+            <div class="container5 grid">
+            <div class="image1">
                 <img
+                className=''
                 src="/images/image1.jpeg"
                 alt=""
                 />
