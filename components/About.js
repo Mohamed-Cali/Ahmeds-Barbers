@@ -24,9 +24,6 @@ function About() {
                 <a href="#services" className="btn">Services</a>
               </div>
             </div>
-            <div>
-              <Gallery/>
-            </div>
           </div>
         </section>
     </div>

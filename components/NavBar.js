@@ -22,7 +22,7 @@ const NavBar = () => {
       <nav className='nav pl-4 pr-4 sticky border-none'>
         <div className='nav-container'>
         <a href={"#"}>
-        <span className='text-2xl tracking-widest border-2 border-white px-3'>BERNI'S CUTZ</span>
+        <span className='text-2xl tracking-widest border-2 border-white px-3'>Ahmed's Barbers</span>
         </a>
         <LargeNav />
         {open && <ResNav closeNav={handleNav} />}

@@ -36,27 +36,18 @@ function Contact() {
                 </div>
               </a>
 
-              <a className='cursor-pointer' href='https://www.instagram.com/berniscutz/?hl=en'>
+              <div className='cursor-pointer'>
                 <div className="contact-info hover-effect">
                   <div className="icon-box">
-                    <AiFillInstagram icon="phone" className="icon"/>
+                  <FontAwesomeIcon icon="location" className="icon"/>
+                  <p>250 Twickenham Rd <br /> Isleworth TW7 7DT</p>
                   </div>
-                  <h6 className="fs-4">Instagram</h6>
-                  <span>@berniscutz</span>
                 </div>
-              </a>
-              
-              <a className='cursor-pointer' href='https://www.facebook.com/p/Bernis-Cutz-100063505243672/'>
-                <div className="contact-info hover-effect">
-                  <div className="icon-box">
-                    <AiFillFacebook icon="phone" className="icon"/>
-                  </div>
-                  <h6 className="fs-4">Facebook</h6>
-                </div>
-              </a>
+              </div>
+
             </div>
             <div className='map'>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19890.312258529208!2d-0.3583703675073569!3d51.452849546063156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760c8e20816753%3A0xaf52e788eb903628!2sBernis%20Cutz!5e0!3m2!1sen!2suk!4v1683072754858!5m2!1sen!2suk" className='w-full h-full' ></iframe>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4971.731231243312!2d-0.34044422181290546!3d51.46062371850975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760d3874efa1b7%3A0xa01bff0add87ad42!2sAhmed%E2%80%99s%20Barbers!5e0!3m2!1sen!2suk!4v1685024725497!5m2!1sen!2suk" className='w-full h-full' ></iframe>
             </div>
           </div>
           
