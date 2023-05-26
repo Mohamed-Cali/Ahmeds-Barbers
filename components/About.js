@@ -17,10 +17,9 @@ function About() {
                   Our success secret
                 </h3>
                 <p className='mb-6'>
-                We believe in beautiful, healthy hair for all. That's why we provide customized services to meet your unique needs. Our skilled stylists are dedicated to delivering excellent care and ensuring your satisfaction.
-                </p>
+                Visit our barber for personalized grooming that meets your needs. Our skilled barbers prioritize your satisfaction, ensuring excellent care and attention to detail.                 </p>
                 <p className='mb-6'>
-                We focus on exceptional hair care services at our salon. With premium products and advanced techniques, we aim to enhance the look and feel of your hair. Our stylists listen to your preferences and work with you to achieve your desired look.                </p>
+                Boost your style and confidence as we tailor our services to you. Relax in our welcoming atmosphere and leave with a refreshed look. Customer satisfaction is our top priority, and we exceed expectations. Experience the difference at our barber shop today.             </p>
                 <a href="#services" className="btn">Services</a>
               </div>
             </div>

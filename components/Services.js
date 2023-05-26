@@ -9,7 +9,7 @@ function Services() {
             <div className="section-header">
               <h2 className="fs-1 uppercase mb-12">Our Services</h2>
               <p>
-              At our salon, our skilled stylists are committed to ensuring that you depart feeling rejuvenated and self-assured. Check out our list of services and schedule your appointment today.
+              At our barber shop, our dedicated barbers are committed to leaving you feeling revitalized and confident. Explore our range of services and book your appointment now.
               </p>
             </div>
             <div className="col-3-grid3 mt-20">
