@@ -17,6 +17,7 @@ export default function RootLayout({ children}) {
 
   return (
     <html lang="en" className={`${catamaran.variable} font-catamaran`}>
+      <head/>
       <body>
         <NavBar/>
           {children}
