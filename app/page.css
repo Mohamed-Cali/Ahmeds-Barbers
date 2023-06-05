@@ -10,6 +10,8 @@
 html {
   width: 100vw;
   background-color: rgb(176, 170, 170);
+  overflow-x: hidden;
+
 }
 
 body {
