@@ -1,8 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
+  AiFillEnvironment,
   AiFillFacebook,
-  AiFillInstagram
+  AiFillInstagram,
+  AiFillPhone
 } from "react-icons/ai"
 import '../app/page.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -38,13 +40,13 @@ const Footer = () => {
                 <h1>Get In Touch</h1>
                 <div className='right flex flex-row justify-end'>
                   <p>250 Twickenham Rd, Isleworth TW7 7DT</p>
-                  <FontAwesomeIcon icon="location" className="icon2"/>
+                  <AiFillEnvironment icon="location" className="icon2"/>
                 </div>
                 
                 <a className='cursor-pointer' href={`tel:${phoneNumber}`}>
                   <div className='right flex flex-row justify-end' >
                     <p>{phoneNumber}</p>
-                    <FontAwesomeIcon icon="phone" className="icon2"/>
+                    <AiFillPhone icon="phone" className="icon2"/>
                   </div>
                 </a>
             </div>

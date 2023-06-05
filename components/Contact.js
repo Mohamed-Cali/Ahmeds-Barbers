@@ -1,8 +1,10 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  AiFillEnvironment,
   AiFillFacebook,
-  AiFillInstagram
+  AiFillInstagram,
+  AiFillPhone
 } from "react-icons/ai"
 import '../app/page.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -29,7 +31,7 @@ function Contact() {
               <a className='cursor-pointer' href={`tel:${phoneNumber}`}>
                 <div className="contact-info hover-effect">
                   <div className="icon-box">
-                    <FontAwesomeIcon icon="phone" className="icon"/>
+                    <AiFillPhone icon="phone" className="icon"/>
                   </div>
                   <h6 className="fs-4">Call us:</h6>
                   <span>{phoneNumber}</span>
@@ -39,7 +41,7 @@ function Contact() {
               <div className='cursor-pointer'>
                 <div className="contact-info hover-effect">
                   <div className="icon-box">
-                  <FontAwesomeIcon icon="location" className="icon"/>
+                  <AiFillEnvironment icon="location" className="icon"/>
                   <p>250 Twickenham Rd <br /> Isleworth TW7 7DT</p>
                   </div>
                 </div>
