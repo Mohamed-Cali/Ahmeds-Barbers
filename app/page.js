@@ -17,15 +17,17 @@ export default function Home( ) {
 
   return (
     <div className={`${catamaran.variable} font-catamaran`}>
-      <Hero />
+      <div className='page-container'>
+        <Hero />
 
-      <About />
+        <About />
 
-      <Services />
+        <Services />
 
-      <Reviews />
+        <Reviews />
 
-      <Contact />
+        <Contact />
+      </div>
     </div>
 
   )

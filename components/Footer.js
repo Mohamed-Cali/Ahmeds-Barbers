@@ -20,23 +20,23 @@ const Footer = () => {
   return (
     <footer >
       <section id="footer">
-        <div class="title-text mb-20">
+        <div className="title-text mb-20">
             <h1 className='text-3xl text-center font-semibold uppercase'>Visit Us Today</h1>
         </div>
-        <div class="footer-row">
-            <div class="footer-left">
+        <div className="footer-row">
+            <div className="footer-left">
                 <h1>Opening Hours</h1>
                 <div className='right flex flex-row justify-start'>
                 <FontAwesomeIcon icon="clock" className="icon3"/>
-                <p><i class="fa fa-clock-o"></i>Monday to Saturday - 9am to 6pm</p>
+                <p><i className="fa fa-clock-o"></i>Monday to Saturday - 9am to 6pm</p>
                 </div>
 
                 <div className='right flex flex-row justify-start'>
                 <FontAwesomeIcon icon="clock" className="icon3"/>
-                <p><i class="fa fa-clock-o"></i>Sunday - 10am to 4pm</p>
+                <p><i className="fa fa-clock-o"></i>Sunday - 10am to 4pm</p>
                 </div>
             </div>
-            <div class="footer-right">
+            <div className="footer-right">
                 <h1>Get In Touch</h1>
                 <div className='right flex flex-row justify-end'>
                   <p>250 Twickenham Rd, Isleworth TW7 7DT</p>

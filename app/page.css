@@ -10,8 +10,6 @@
 html {
   width: 100vw;
   background-color: rgb(176, 170, 170);
-  overflow-x: hidden;
-
 }
 
 body {
@@ -25,6 +23,10 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+.page-container{
+  overflow-x: hidden;
 }
 
 h1,
