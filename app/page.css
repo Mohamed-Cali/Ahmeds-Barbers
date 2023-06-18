@@ -225,10 +225,11 @@ a:hover {
 /* About */
 
 #about {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(128, 128, 128);
   background-image: url(/images/image5.jpeg);
   background-blend-mode: multiply;
-  background-size: contain;
+  background-size: cover;
+  background-position: 40% 90%;
   color: white;
 }
 
