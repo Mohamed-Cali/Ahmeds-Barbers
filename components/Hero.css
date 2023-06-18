@@ -80,15 +80,18 @@
 }
 
 @media (min-width: 640px) {
-  .button1 {
-    margin-top: 3rem;
-  }
 }
 
 @media (min-width: 768px) {
   .intro__title {
     font-size: 3rem;
     letter-spacing: 0.8em;
+  }
+}
+
+@media (min-width: 800px) {
+  .intro {
+    min-height: 900px;
   }
 }
 
@@ -101,6 +104,20 @@
 @media (min-width: 1080px) {
   .intro {
     height: 100vh;
+  }
+}
+
+@media (min-height: 700px) {
+  .intro {
+    height: 100vh;
+  }
+
+  .intro__panel {
+    padding-top: 3rem;
+  }
+
+  .button1 {
+    margin-top: 3rem;
   }
 }
 

@@ -186,8 +186,8 @@ a:hover {
 }
 
 .btn {
-  background-color: #424242;
-  color: #fff;
+  background-color: #c8c8c8;
+  color: #000000;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -200,14 +200,14 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #0b0b0b;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .btn-outline {
   background-color: transparent;
   border-color: 1px solid #fff;
-  color: #fff;
+  color: #000000;
 }
 
 .section-header {
@@ -225,7 +225,12 @@ a:hover {
 /* About */
 
 #about {
-  background-color: rgb(176, 170, 170);
+  background-color: rgb(100, 100, 100);
+  background-image: url(/images/image5.jpeg);
+  background-blend-mode: multiply;
+  /* background-position: 90% 80%; */
+  background-size: contain;
+  color: white;
 }
 
 #about .content {
@@ -233,6 +238,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: auto;
+  max-width: 650px;
+  justify-self: end;
 }
 
 .content * {
@@ -250,7 +257,6 @@ a:hover {
 .col-2-grid2 img {
   max-width: 500px;
   justify-self: end;
-  border-radius: 0.5rem;
 }
 
 .col-2-grid2 .content {
@@ -267,14 +273,9 @@ a:hover {
     max-height: 500px;
     justify-self: center;
   }
-  .col-2-grid2 .content {
-    padding: 0 2rem;
-  }
-}
 
-@media (max-width: 640px) {
-  .col-2-grid2 .content {
-    padding: 0 0.5rem;
+  #about .content {
+    justify-self: center;
   }
 }
 
