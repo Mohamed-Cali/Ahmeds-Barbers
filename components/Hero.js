@@ -1,7 +1,7 @@
 import './Hero.css'
 
 function Hero() {
-    const phoneNumber = '07872 178484';
+    const phoneNumber = '07565400486';
 
   return (
     <div>

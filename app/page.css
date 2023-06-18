@@ -228,7 +228,6 @@ a:hover {
   background-color: rgb(100, 100, 100);
   background-image: url(/images/image5.jpeg);
   background-blend-mode: multiply;
-  /* background-position: 90% 80%; */
   background-size: contain;
   color: white;
 }
