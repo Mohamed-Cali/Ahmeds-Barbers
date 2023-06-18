@@ -6,119 +6,11 @@
 
 
 
-@layer base {
-}
-
-
-.hero{
-    @apply max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-3 place-items-center uppercase py-16;
-}
-
-.hero-title{
-    @apply font-bold text-2xl text-center lg:text-end tracking-wider pb-10 lg:pb-0;
-}
-
-/*Features*/
-.features{
-    @apply grid grid-cols-1 lg:grid-cols-2 text-black;
-}
-
-.feature-flex{
-    @apply bg-emerald-200 flex flex-col items-center justify-center space-y-6 relative w-full py-20 px-3 lg:px-0 lg:py-0
-}
-
-.feature-flex-2{
-    @apply bg-white flex flex-col items-center justify-center space-y-6 relative w-full px-3 order-4 py-20 lg:py-0 lg:order-none lg:px-0
-}
-
-.feature-text__behind{
-    @apply text-[150px] top-14 font-sans absolute text-yellow-200 opacity-30
-}
-
-/* STAFF*/
-
-.staff-icons{
-    @apply flex items-center gap-5 text-xl cursor-pointer pt-4;
-}
-
-.staff-icons > * {
-    @apply duration-300;
-}
-
-.staff-icons > *:hover{
-    @apply scale-110;
-}
-/*buttons*/
-.cart-btn {
-    @apply bg-green-400 border-2 border-green-400 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
-}
-
-.cart-btn:hover{
-    @apply bg-transparent;
-}
-
-.extra{
-   @apply py-2 px-6;
-}
-
-.red-btn{
-    @apply bg-red-500 flex items-center justify-center gap-2 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max duration-300;
-}
-
-.success-btn{
-    @apply bg-green-500 text-white border-2 border-green-400 py-1 px-4 rounded-md shadow-sm w-full lg:max-w-max;
-}
-
-.red-btn:hover,
-.red-btn:active,
-.red-btn:focus{
-    @apply opacity-75;
-}
-
-.feature-btn{
-    @apply border-2 border-white px-16 py-2 text-sm font-semibold uppercase duration-300;
-}
-
-.feature-btn:hover{
-    @apply border-2 border-yellow-400 text-yellow-400;
-}
-
-/*Policy*/
-.policy-list{
-    @apply list-disc space-y-3 text-justify;
-}
-
-.prod-container {
-    @apply w-2/5 space-y-10;
-}
-
-/*CONTACT*/
-.contact-box{
-    @apply flex items-center gap-4  p-3 rounded-md shadow;
-}
-
-.input-container{
-    @apply flex flex-col space-y-2 lg:flex-row lg:space-y-2 lg:gap-5
-}
-
-.input-box{
-    @apply p-2 text-black rounded w-full mt-2 border border-black;
-}
-
-/*SERVICE*/
-.service-cards{
-    @apply flex flex-col lg:flex-row items-center gap-20 my-10;
-}
-
-.service-card{
-    @apply flex flex-col items-center gap-4;
-}
-
 
 
 /*Nav Bar */
 .nav{
-    @apply inset-0 bg-neutral-900 min-h-[80px] max-h-[10vh] z-50;
+    @apply inset-0 bg-black min-h-[80px] max-h-[10vh] z-50;
 }
 .nav-container {
     @apply max-w-[1200px] mx-auto text-white pt-7  px-7 lg:px-0 flex items-center justify-between relative lg:pt-5;
@@ -144,7 +36,7 @@
 
 /*Responsive nav*/
 .nav-responsive-container {
-    @apply absolute z-20 right-0 top-0 h-screen w-2/5 text-black dark:text-white bg-neutral-900;
+    @apply absolute z-20 right-0 top-0 h-screen w-2/5 text-black dark:text-white bg-black;
 }
 
 .overlay{

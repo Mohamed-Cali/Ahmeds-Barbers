@@ -11,7 +11,7 @@ function About() {
             </div>
 
             <div className="col-2-grid2">
-              <img src="/images/image7.jpeg" alt="about us" />
+              <img src="/images/image1.jpeg" alt="about us" />
               <div className="content">
                 <h3 className="fs-3">
                   Our success secret
