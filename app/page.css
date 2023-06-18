@@ -19,11 +19,6 @@ body {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;  
-  background-image: url(/images/image3.jpeg);
-  background-blend-mode: multiply;
-  background-position: center;
-  background-size: contain;
-  background-repeat: repeat;
 }
 
 body::-webkit-scrollbar {
@@ -255,6 +250,7 @@ a:hover {
 .col-2-grid2 img {
   max-width: 500px;
   justify-self: end;
+  border-radius: 0.5rem;
 }
 
 .col-2-grid2 .content {

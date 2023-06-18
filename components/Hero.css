@@ -1,14 +1,18 @@
 .intro {
   position: relative;
   width: 100vw;
-  height: 93vh;
+  height: auto;
   min-height: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 0;
-  margin-bottom: 4rem;
+  margin-top: 0rem;
+  background-image: url(/images/image3.jpeg);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 .intro__panel {
@@ -51,8 +55,8 @@
 .button1 {
   background-color: #bbbbbb;
   color: #000000;
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .button1:hover {
@@ -65,8 +69,7 @@
     font-size: 2rem;
   }
   .intro__subtitle {
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1rem;
   }
 }
 
@@ -94,3 +97,11 @@
     padding-top: 2rem;
   }
 }
+
+@media (min-width: 1080px) {
+  .intro {
+    height: 100vh;
+  }
+}
+
+
