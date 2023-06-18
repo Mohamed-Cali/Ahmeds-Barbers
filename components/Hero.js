@@ -16,7 +16,7 @@ function Hero() {
               </div>
 
               
-              <h1 className="intro__title">NATS <br/> BARBERS</h1>
+              <h1 className="intro__title">Ahmed's <br/> Barbers</h1>
 
               <span className="intro__subtitle">Styling, Barbering, <br />and Personal Care</span>
 
