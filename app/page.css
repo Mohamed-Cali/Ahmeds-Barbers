@@ -293,6 +293,11 @@ a:hover {
 
 #services {
   color: white;
+  background-image: url(/images/image3.jpeg);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 .course h3 {
